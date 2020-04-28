@@ -1,5 +1,5 @@
 {
-    var someField = 12;
+    let someField = 12;
     const abc = function(){
 
     };

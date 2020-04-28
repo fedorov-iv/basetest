@@ -1,15 +1,7 @@
-const http = require("http");
-
-{
-    let someField = 12;
-    const abc = function(){
-        let a = 1;
-        
-
-    };
-
-}
-
-var someField = 1;
-
-console.log(someField);
+describe('webdriver.io page', () => {
+    it('should have the right title', () => {
+        browser.url('https://webdriver.io')
+        const title = browser.getTitle()
+        expect(browser).toHaveTitle('WebdriverIO · Next-gen browser automation test framework for Node.js');
+    })
+})

@@ -7,3 +7,7 @@
     };
 
 }
+
+var someField = 1;
+
+console.log(someField);
